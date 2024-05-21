@@ -1,7 +1,6 @@
 #Лабораторная_9. Вариант_3:Подсчитать количество мужчин и количество женщин, указав спасен/погиб и число или %.
 import streamlit as st
 import matplotlib.pyplot as plt
-
 st.image('titanik.jpg')
 info = {"мужчин": 0, "женщин": 0}
 total_passengers = 0
